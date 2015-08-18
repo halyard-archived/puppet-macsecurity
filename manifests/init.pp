@@ -1,5 +1,5 @@
 class security {
-  osx::osx_default { 'Disable Guest access':
+  osx_default { 'Disable Guest access':
     domain => '/Library/Preferences/com.apple.loginwindow',
     key    => 'GuestEnabled',
     value  => 0,
