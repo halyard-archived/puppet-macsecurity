@@ -3,6 +3,7 @@ class security {
     domain => '/Library/Preferences/com.apple.loginwindow',
     key    => 'GuestEnabled',
     value  => 0,
-    type   => 'integer'
+    type   => 'integer',
+    user   => 'root'
   }
 }
