@@ -1,3 +1,4 @@
+# Set sane security defaults for OSX
 class security {
   osx_default { 'Disable Guest access':
     domain => '/Library/Preferences/com.apple.loginwindow',
@@ -6,4 +7,9 @@ class security {
     type   => 'integer',
     user   => 'root'
   }
+
+  include osx::software_update
+  include osx::software_update::frequency
+
+  include osx::security::firewall
 }

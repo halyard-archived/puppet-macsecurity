@@ -1,0 +1,22 @@
+{
+  "name": "halyard-security",
+  "version": "0.0.4",
+  "author": "Les Aker",
+  "license": "MIT",
+  "summary": "Configure security via Boxen",
+  "source": "https://github.com/halyard/puppet-security",
+  "project_page": "https://github.com/halyard/puppet-security",
+  "issues_url": "https://github.com/halyard/puppet-security/issues",
+  "dependencies": [
+
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Darwin",
+      "operatingsystemmajrelease": [
+        "14",
+        "15"
+      ]
+    }
+  ]
+}
