@@ -8,7 +8,10 @@
   "project_page": "https://github.com/halyard/puppet-security",
   "issues_url": "https://github.com/halyard/puppet-security/issues",
   "dependencies": [
-
+    {
+      "name": "halyard/osx",
+      "version_requirement": "2.8.x"
+    }
   ],
   "operatingsystem_support": [
     {
