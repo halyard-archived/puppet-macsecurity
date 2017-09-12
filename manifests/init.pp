@@ -1,5 +1,5 @@
 # Set sane security defaults for OSX
-class security {
+class macsecurity {
   osx_default { 'Disable Guest access':
     domain => '/Library/Preferences/com.apple.loginwindow',
     key    => 'GuestEnabled',

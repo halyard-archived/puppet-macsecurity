@@ -1,12 +1,12 @@
 {
-  "name": "halyard-security",
+  "name": "halyard-macsecurity",
   "version": "0.0.6",
   "author": "Les Aker",
   "license": "MIT",
-  "summary": "Configure security via Boxen",
-  "source": "https://github.com/halyard/puppet-security",
-  "project_page": "https://github.com/halyard/puppet-security",
-  "issues_url": "https://github.com/halyard/puppet-security/issues",
+  "summary": "Configure Mac security options",
+  "source": "https://github.com/halyard/puppet-macsecurity",
+  "project_page": "https://github.com/halyard/puppet-macsecurity",
+  "issues_url": "https://github.com/halyard/puppet-macsecurity/issues",
   "dependencies": [
     {
       "name": "halyard/osx",
