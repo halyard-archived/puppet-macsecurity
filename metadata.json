@@ -1,6 +1,6 @@
 {
   "name": "halyard-macsecurity",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": "Les Aker",
   "license": "MIT",
   "summary": "Configure Mac security options",
